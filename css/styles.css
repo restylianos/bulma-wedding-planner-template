@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 @media(min-width: 1024px){
     .hero-body{
         background-image: url(../img/undraw_wedding_t1yl.svg);
@@ -21,4 +25,17 @@ hr.rounded {
 
 .button{
     background-color: #c7b8ea;
+}
+
+#features{
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,0.7973390039609594) 0%, rgba(200,179,215,1) 26%, rgba(148,187,233,1) 100%);
+    padding-top: 5rem;
+}
+.section{
+    padding: 3rem 1.5rem;
+}
+
+.sectionf{
+    padding-top: 1.5rem;
 }

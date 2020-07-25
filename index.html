@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/js/app.js"></script>
   </head>
 <body>
 
   
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="https://bulma.io">
+      <a class="navbar-item" href="#">
         <img src="https://img.icons8.com/dusk/64/000000/p.png" width="50" height="30">
       </a>
     </div>
@@ -58,7 +60,7 @@
                                 <i class="fa fa-check" aria-hidden="true" style="color: #72ddf7;"></i>
                                 Ante metus dictum at tempor commodo
                             </p>
-                            <button class="button is-size-7 is-rounded " style="margin-top: 15px;">
+                            <button id="learnbtn" type="button" class="button is-size-6 is-rounded " style="margin-top: 15px;">
                                 Learn more
                             </button>
                         </div>
@@ -87,7 +89,7 @@
                                     <p>
                                         <strong>Some Name</strong> <small>@somename</small>
                                         <br>
-                                        Pellentesque nec nam aliquam sem et tortor
+                                        Pellentesque nec nam aliquam sem et tortor.Tristique et egestas quis ipsum suspendisse.
                                     </p>
                                 </div>
                             </div>
@@ -108,7 +110,7 @@
                                         <p>
                                             <strong>Some Name</strong> <small>@somename</small>
                                             <br>
-                                            Libero id faucibus nisl tincidunt eget. 
+                                            Libero id faucibus nisl tincidunt eget. Adipiscing elit pellentesque habitant morbi tristique senectus et netus et. 
                                         </p>
                                     </div>
                                 </div>
@@ -119,4 +121,168 @@
         </div>
     </section>
 
+    <section id="features" class="sectionf">
+        <div class="container">
+            <div class="columns reverse-row-order">
+                <div class="column">
+                    <h1 class="title">Step one</h1>
+                    <p class="has-text-black paragraph">
+                        Scelerisque fermentum dui faucibus in ornare quam viverra orci. Ultricies mi quis hendrerit dolor. Aliquet lectus proin nibh nisl condimentum. Sit amet dictum sit amet justo donec. Iaculis eu non diam phasellus vestibulum lorem.
+                    </p>
+                </div>
+                <div class="column">
+                    <img src="/img/undraw_agreement_aajr.svg" style="width: 70%;">
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="container">
+            <div class="columns reverse-row-order">
+                <div class="column">
+                    <img src="/img/undraw_window_shopping_b96y.svg" style="width: 50%;">
+                </div>
+                <div class="column">
+                    <h1 class="title">Step two</h1>
+                    <p class="has-text-black paragraph">
+                        Scelerisque fermentum dui faucibus in ornare quam viverra orci. Ultricies mi quis hendrerit dolor. Aliquet lectus proin nibh nisl condimentum. Sit amet dictum sit amet justo donec. Iaculis eu non diam phasellus vestibulum lorem.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+       
+
+        <div class="container">
+            <div class="columns reverse-row-order">
+                <div class="column">
+                    <h1 class="title">Step three</h1>
+                    <p class="has-text-black paragraph">
+                        Scelerisque fermentum dui faucibus in ornare quam viverra orci. Ultricies mi quis hendrerit dolor. Aliquet lectus proin nibh nisl condimentum. Sit amet dictum sit amet justo donec. Iaculis eu non diam phasellus vestibulum lorem.
+                    </p>
+                </div>
+                <div class="column">
+                    <img src="/img/undraw_camera_mg5h.svg" style="width: 70%;">
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="container">
+            <div class="columns reverse-row-order">
+                <div class="column">
+                    <img src="/img/undraw_having_fun_iais.svg" style="width: 50%;">
+                </div>
+                <div class="column">
+                    <h1 class="title">Step four</h1>
+                    <p class="has-text-black paragraph">
+                        Scelerisque fermentum dui faucibus in ornare quam viverra orci. Ultricies mi quis hendrerit dolor. Aliquet lectus proin nibh nisl condimentum. Sit amet dictum sit amet justo donec. Iaculis eu non diam phasellus vestibulum lorem.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h3 class="is-size-3 has-text-centered">
+                <strong>Let s connect</strong>
+            </h3>
+            
+                <div class="box">
+                    <div class="columns">
+                        <div class="column">
+                            <img src="/img/undraw_mobile_inbox_3h46.svg" style="height: 80%;">
+                            <p class="has-text-black paragraph has-text-centered" style="padding-top: 10px;">
+                                One of our team members will contact you soon  <i class="fa fa-heart" aria-hidden="true" style="color: red;"></i>
+
+                            </p>
+                        </div>
+        
+                        <div class="column">
+                            <div class="field">
+                                <label class="label">Name</label>
+                                <div class="control">
+                                  <input class="input" type="text" placeholder="Text input">
+                                </div>
+                              </div>
+                              
+                              <div class="field">
+                                <label class="label">Email</label>
+                                <div class="control has-icons-left has-icons-right">
+                                  <input class="input" type="email" placeholder="Email input" placeholder="example@gmail.com">
+                                  <span class="icon is-small is-left">
+                                    <i class="fas fa-envelope"></i>
+                                  </span>
+                                  
+                              </div>
+                              
+                              <div class="field">
+                                <label class="label">Subject</label>
+                                <div class="control">
+                                    <input class="input" type="text" placeholder="Type subject">
+                                  </div>
+                              </div>
+                              
+                              <div class="field">
+                                <label class="label">Message</label>
+                                <div class="control">
+                                  <textarea class="textarea" placeholder="Textarea"></textarea>
+                                </div>
+                              </div>
+                              
+                              <div class="field">
+                                <div class="control">
+                                  <label class="checkbox">
+                                    <input type="checkbox">
+                                    I agree to the <a href="#">terms and conditions</a>
+                                  </label>
+                                </div>
+                              </div>
+                              
+                              
+                              <div class="field is-grouped">
+                                <div class="control">
+                                  <button class="button is-link">Submit</button>
+                                </div>
+                                <div class="control">
+                                  <button class="button is-link is-light">Cancel</button>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="footer" class="section">
+        <div class="container has-text-centered">
+            <p class="has-text-black is-size-7">
+                Built with <i class="fa fa-heart" aria-hidden="true" style="color: red;"></i> by restylianos
+            </p>
+            <a href="https://github.com/restylianos" class="is-size-4 social-link">
+                <i class="fa fa-github" aria-hidden="true" style="color: black;"></i>
+            </a>
+            <a href="https://facebook.com/profile.php?id=1000011674968506" class="is-size-4 social-link">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </a>
+        </div>
+    </section>
+</div>
+
+<!--script to move to the features section-->
+<script>
+$("button").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".sectionf").offset().top},
+        'slow');
+});
+</script>
+
 </body>
+</html>
