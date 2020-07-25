@@ -2,15 +2,6 @@ html {
     scroll-behavior: smooth;
   }
 
-@media(min-width: 1024px){
-    .hero-body{
-        background-image: url(../img/undraw_wedding_t1yl.svg);
-        background-size: 30%;
-        background-position: 80% 50%;
-        background-repeat: no-repeat;
-    }
-}
-
 .button:hover {
     text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
 -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
@@ -31,6 +22,7 @@ hr.rounded {
     background: rgb(238,174,202);
     background: linear-gradient(90deg, rgba(238,174,202,0.7973390039609594) 0%, rgba(200,179,215,1) 26%, rgba(148,187,233,1) 100%);
     padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 .section{
     padding: 3rem 1.5rem;
