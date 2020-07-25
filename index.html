@@ -10,6 +10,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap">
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap" as="style">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
 
   </head>
 <body>
@@ -223,6 +225,114 @@
         </div>
     </section>
 
+    <!-- Gallery Section -->
+    <section class="hero" id="hotel-gallery" style="margin-top: 6rem;margin-bottom: 3rem;">
+        <div class="hero-body is-paddingless">
+          <div class="container">
+            <div class="content">
+                <h1 class="title has-text-centered">Weddings Gallery</h1>
+            </div>
+            <section class="section is-paddingless">
+              <div id="slider">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-16by9 is-covered">
+                      <img
+                        src="https://images.unsplash.com/photo-1425421543490-6a133856ff32?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt=""
+                      />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="item__title">
+                      Mon titre 1
+                    </div>
+                    <div class="item__description">
+                      Ici une petite description pour tester le slider
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-16by9 is-covered">
+                      <img
+                        src="https://images.unsplash.com/photo-1520342868574-5fa3804e551c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt=""
+                      />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="item__title">
+                      Mon titre 2
+                    </div>
+                    <div class="item__description">
+                      Ici une petite description pour tester le slider
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-16by9 is-covered">
+                      <img
+                        src="https://images.unsplash.com/photo-1504993945773-3f38e1b6a626?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                        alt=""
+                      />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="item__title">
+                      Mon titre 3
+                    </div>
+                    <div class="item__description">
+                      Ici une petite description pour tester le slider
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-16by9 is-covered">
+                      <img
+                        src="https://images.unsplash.com/photo-1506072328856-cd6629b00b62?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                        alt=""
+                      />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="item__title">
+                      Mon titre 4
+                    </div>
+                    <div class="item__description">
+                      Ici une petite description pour tester le slider
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-16by9 is-covered">
+                      <img
+                        src="https://images.unsplash.com/photo-1444920275954-9dddec6b714e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt=""
+                      />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="item__title">
+                      Mon titre 5
+                    </div>
+                    <div class="item__description">
+                      Ici une petite description pour tester le slider
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
 
     <section id="contact" class="section">
         <div class="container">
@@ -268,7 +378,7 @@
                               <div class="field">
                                 <label class="label">Message</label>
                                 <div class="control">
-                                  <textarea class="textarea" placeholder="Textarea"></textarea>
+                                  <textarea class="textarea" placeholder="Text area"></textarea>
                                 </div>
                               </div>
                               
@@ -317,6 +427,22 @@ $("button").click(function() {
     $('html,body').animate({
         scrollTop: $(".sectionf").offset().top},
         'slow');
+});
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+  bulmaCarousel.attach('#slider', {
+    slidesToScroll: 1,
+    slidesToShow: 3,
+    infinite: true,
+  });
+  let burger = document.querySelector('.burger');
+  let navbar = document.querySelector('.navbar-menu');
+  burger.addEventListener('click', () => {
+    burger.classList.toggle('is-active');
+    navbar.classList.toggle('is-active');
+  });
 });
 </script>
 

@@ -21,15 +21,15 @@ hr.rounded {
 }
 
 #features{
-    background: rgb(238,174,202);
-    background: linear-gradient(90deg, rgba(238,174,202,0.7973390039609594) 0%, rgba(200,179,215,1) 26%, rgba(148,187,233,1) 100%);
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
-.section{
-    padding: 3rem 1.5rem;
+    background: linear-gradient(180deg, rgba(238,174,202,0.7973390039609594) 0%, rgba(200,179,215,1) 26%, rgb(255 255 255) 100%);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .sectionf{
     padding-top: 1.5rem;
+}
+
+.footer{
+    padding: 0.5rem;
 }
