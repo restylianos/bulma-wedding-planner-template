@@ -1,0 +1,24 @@
+@media(min-width: 1024px){
+    .hero-body{
+        background-image: url(../img/undraw_wedding_t1yl.svg);
+        background-size: 30%;
+        background-position: 80% 50%;
+        background-repeat: no-repeat;
+    }
+}
+
+.button:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+hr.rounded {
+    border-top: 2px solid  #c7b8ea;
+    border-radius: 2px;
+  }
+
+.button{
+    background-color: #c7b8ea;
+}
