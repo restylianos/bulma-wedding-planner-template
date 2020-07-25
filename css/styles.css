@@ -1,7 +1,9 @@
 html {
     scroll-behavior: smooth;
-  }
-
+}
+body{
+    font-family: 'Nunito Sans', sans-serif, 'Segoe UI','Fira Sans','Droid Sans', 'Helvetica Neue',Helvetica Arial,sans-serif;
+}
 .button:hover {
     text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
 -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
