@@ -10,5 +10,5 @@ Wedding-Planner is an open source template completly made with the Bulma Framewo
 - Licensed under MIT
 
 # Preview:
-![Template Screenshot](previews/Wedding-Planner.jpg)
+![Template Screenshot](previews/Wedding-Planner.png)
 
